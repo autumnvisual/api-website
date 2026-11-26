@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for AuTuMN STUDIO. Learn how information is handled when you visit this website or contact us.">
+  <meta name="robots" content="index,follow">
+  <title>Privacy Policy | AuTuMN STUDIO</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #637080;
+      --paper: #f5f7f8;
+      --surface: #ffffff;
+      --line: #e3e8ec;
+      --accent: #244b64;
+      --accent-soft: #eaf1f5;
+      --max: 920px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.72 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    .topbar {
+      height: 5px;
+      background: linear-gradient(90deg, #17212b 0%, #244b64 60%, #8fa7b5 100%);
+    }
+    .wrap { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
+    header { padding: 42px 0 28px; }
+    .brand-row { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 12px;
+      color: var(--ink); text-decoration: none;
+      font-size: 14px; font-weight: 800; letter-spacing: .16em;
+    }
+    .brand-mark {
+      display: grid; place-items: center; width: 38px; height: 38px;
+      border: 1px solid #9aa8b2; border-radius: 10px;
+      color: var(--accent); font-size: 15px; letter-spacing: -.06em;
+    }
+    .language { display: inline-flex; padding: 4px; gap: 3px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+    .language button {
+      border: 0; border-radius: 999px; padding: 8px 13px; background: transparent;
+      color: var(--muted); font: inherit; font-size: 12px; font-weight: 750; cursor: pointer;
+    }
+    .language button[aria-pressed="true"] { color: white; background: var(--ink); }
+    .eyebrow { margin: 48px 0 9px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+    h1 { margin: 0; max-width: 760px; font-size: clamp(38px, 7vw, 62px); line-height: 1.05; letter-spacing: -.055em; font-weight: 760; }
+    .intro { max-width: 680px; margin: 20px 0 0; color: var(--muted); font-size: 17px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 9px 22px; margin-top: 24px; color: var(--muted); font-size: 13px; }
+    .meta span { display: inline-flex; align-items: center; gap: 7px; }
+    .meta strong { color: var(--ink); font-weight: 700; }
+    main { padding: 0 0 64px; }
+    .notice {
+      margin: 12px 0 22px; padding: 17px 20px; border: 1px solid #d9e3e9;
+      border-left: 3px solid var(--accent); border-radius: 12px; background: var(--accent-soft);
+      color: #344858; font-size: 14px;
+    }
+    .content {
+      padding: clamp(24px, 5vw, 48px); border: 1px solid var(--line);
+      border-radius: 18px; background: var(--surface); box-shadow: 0 14px 42px rgba(21, 39, 52, .045);
+    }
+    .contents { padding: 20px 22px; margin: 0 0 34px; border-radius: 12px; background: #f7f9fa; }
+    .contents strong { display: block; margin-bottom: 10px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+    .contents ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 34px; }
+    .contents li { margin: 4px 0; break-inside: avoid; font-size: 13px; }
+    section { padding-top: 26px; margin-top: 26px; border-top: 1px solid var(--line); scroll-margin-top: 20px; }
+    section:first-of-type { padding-top: 0; margin-top: 0; border-top: 0; }
+    h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.3; letter-spacing: -.025em; }
+    h3 { margin: 18px 0 6px; font-size: 15px; }
+    p { margin: 9px 0; }
+    ul { margin: 9px 0; padding-left: 22px; }
+    li { margin: 5px 0; }
+    .small { color: var(--muted); font-size: 13px; }
+    .placeholder { padding: 1px 5px; border-radius: 4px; background: #fff1d8; color: #744b10; font-weight: 700; }
+    .contact-card { margin-top: 16px; padding: 18px 20px; border-radius: 12px; background: #f7f9fa; }
+    footer { padding: 26px 0 42px; color: var(--muted); font-size: 12px; text-align: center; }
+    footer a { margin: 0 8px; }
+    [data-lang] { display: none; }
+    [data-lang].active { display: block; }
+    @media (max-width: 620px) {
+      header { padding-top: 26px; }
+      .eyebrow { margin-top: 38px; }
+      .brand { font-size: 12px; letter-spacing: .12em; }
+      .brand-mark { width: 34px; height: 34px; }
+      .contents ol { columns: 1; }
+      .content { padding: 23px 19px; }
+      .intro { font-size: 15px; }
+    }
+    @media print {
+      body { background: white; }
+      .topbar, .language { display: none; }
+      .content { border: 0; box-shadow: none; padding: 0; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar"></div>
+  <header class="wrap">
+    <div class="brand-row">
+      <a class="brand" href="./" aria-label="AuTuMN STUDIO home">
+        <span class="brand-mark" aria-hidden="true">A.</span>
+        <span>AuTuMN STUDIO</span>
+      </a>
+      <div class="language" role="group" aria-label="Choose language">
+        <button type="button" data-switch="en" aria-pressed="true">ENGLISH</button>
+        <button type="button" data-switch="id" aria-pressed="false">INDONESIA</button>
+      </div>
+    </div>
+    <div data-lang="en" class="active">
+      <p class="eyebrow">Website information</p>
+      <h1>Privacy Policy</h1>
+      <p class="intro">Your privacy matters. This policy explains what information may be handled when you visit the AuTuMN STUDIO website, contact us, or follow links to other services.</p>
+      <div class="meta"><span><strong>Effective date</strong> November 27, 2026</span><span><strong>Last updated</strong> November 27, 2026</span></div>
+    </div>
+    <div data-lang="id">
+      <p class="eyebrow">Informasi website</p>
+      <h1>Kebijakan Privasi</h1>
+      <p class="intro">Privasi Anda penting bagi kami. Kebijakan ini menjelaskan informasi yang mungkin diproses ketika Anda mengunjungi website AuTuMN STUDIO, menghubungi kami, atau membuka tautan ke layanan lain.</p>
+      <div class="meta"><span><strong>Tanggal berlaku</strong> 27 November 2026</span><span><strong>Pembaruan terakhir</strong> 27 November 2026</span></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div data-lang="en" class="active">
+      <div class="notice"><strong>Before publishing:</strong> Replace the highlighted website URL and contact email in this file. This version assumes the site is a static information/portfolio website and does not itself run user accounts, checkout, contact forms, advertising pixels, or analytics tools. Update the policy if you add any of those features.</div>
+      <article class="content">
+        <nav class="contents" aria-label="Table of contents">
+          <strong>On this page</strong>
+          <ol>
+            <li><a href="#en-about">Who we are</a></li><li><a href="#en-collect">Information we handle</a></li>
+            <li><a href="#en-use">How information is used</a></li><li><a href="#en-hosting">Website hosting</a></li>
+            <li><a href="#en-cookies">Cookies and analytics</a></li><li><a href="#en-third">Third-party links</a></li>
+            <li><a href="#en-retain">Retention and security</a></li><li><a href="#en-rights">Your privacy choices</a></li>
+            <li><a href="#en-children">Children's privacy</a></li><li><a href="#en-changes">Policy updates</a></li><li><a href="#en-contact">Contact</a></li>
+          </ol>
+        </nav>
+
+        <section id="en-about"><h2>1. Who we are</h2>
+          <p>This website is operated under the name <strong>AuTuMN STUDIO</strong> (“we”, “us”, or “our”). For this policy, the website address is <span class="placeholder">[INSERT YOUR WEBSITE URL]</span>.</p>
+          <p>This policy applies to information handled through this website. It does not govern websites, marketplaces, or services operated by other organizations.</p>
+        </section>
+        <section id="en-collect"><h2>2. Information we handle</h2>
+          <p>We do not intend to collect personal information directly through this static website. However, information may be handled in these situations:</p>
+          <ul>
+            <li><strong>Information you send us:</strong> If you email us, we may receive your email address, name (if provided), message, attachments, and any other details you choose to include.</li>
+            <li><strong>Basic technical information:</strong> The website hosting provider may process technical data such as IP address, browser or device information, request time, and the page requested to operate and protect its infrastructure.</li>
+            <li><strong>Third-party services:</strong> When you follow an external link, that service may collect information under its own privacy policy and settings.</li>
+          </ul>
+          <p>Please do not send sensitive personal information unless it is necessary for your inquiry.</p>
+        </section>
+        <section id="en-use"><h2>3. How information is used</h2>
+          <p>Information voluntarily sent to us may be used to respond to questions, provide customer support, discuss products or services, and maintain relevant business records. Technical information handled by the hosting provider may be used for site delivery, troubleshooting, abuse prevention, and security.</p>
+          <p>We do not sell personal information collected directly from you through this website. We do not use this template to run targeted advertising or behavioral profiling.</p>
+        </section>
+        <section id="en-hosting"><h2>4. Website hosting and GitHub Pages</h2>
+          <p>This website may be hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>, a service provided by GitHub. GitHub states that when a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes. This processing is carried out by GitHub as hosting provider and is subject to <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub’s Privacy Statement</a>.</p>
+          <p>For questions about data processed by GitHub in its capacity as provider of GitHub Pages, please review GitHub’s policy and contact GitHub through its official channels.</p>
+        </section>
+        <section id="en-cookies"><h2>5. Cookies and analytics</h2>
+          <p>This policy template does not add analytics, advertising pixels, or non-essential cookies to your website. GitHub or a third-party service may use technologies necessary to provide or secure its own service.</p>
+          <p>If you later install Google Analytics, Meta Pixel, embedded media, a consent tool, or another tracking technology, revise this section to identify the provider, explain the information collected and purposes, and provide any consent or opt-out controls required by applicable law.</p>
+        </section>
+        <section id="en-third"><h2>6. Third-party links and marketplaces</h2>
+          <p>This website may link to external platforms, including online marketplaces such as Etsy, social media, or other product pages. When you leave our website, the third party’s terms, privacy policy, cookies, and data practices apply. We do not control those services or their privacy practices.</p>
+          <p>Review the relevant third-party privacy policy before submitting information, creating an account, or making a purchase on another platform.</p>
+        </section>
+        <section id="en-retain"><h2>7. Data retention and security</h2>
+          <p>We keep messages and related information only for as long as reasonably necessary to respond to you, manage our business relationship, meet legal obligations, or resolve disputes. Retention periods may vary depending on the nature of the information and the reason it was provided.</p>
+          <p>We use reasonable measures to protect information under our control. No method of transmission or electronic storage is completely secure, and we cannot guarantee absolute security. Hosting providers and third-party platforms are responsible for the security of the systems they operate.</p>
+        </section>
+        <section id="en-rights"><h2>8. Your privacy choices and rights</h2>
+          <p>Depending on your location and applicable law, you may have rights to request access to, correction of, deletion of, or a copy of personal information relating to you, or to object to or limit certain processing. You may also withdraw consent where processing is based on consent.</p>
+          <p>To make a privacy request, contact us using the details below. We may need to verify your identity and will respond in accordance with applicable law. These rights may be subject to legal exceptions and limitations.</p>
+        </section>
+        <section id="en-children"><h2>9. Children’s privacy</h2>
+          <p>This website is not designed to collect personal information from children. If you believe a child has provided personal information to us, please contact us so we can review the request and take appropriate steps.</p>
+        </section>
+        <section id="en-changes"><h2>10. Changes to this policy</h2>
+          <p>We may update this policy when our website, services, or legal requirements change. The “Last updated” date at the top of this page indicates when the latest version was published. Continued use of the website after an update means you have had the opportunity to review the revised policy.</p>
+        </section>
+        <section id="en-contact"><h2>11. Contact us</h2>
+          <p>For questions or requests relating to this Privacy Policy, contact:</p>
+          <div class="contact-card"><strong>AuTuMN STUDIO</strong><br>Email: <a href="mailto:privacy@yourdomain.com">privacy@yourdomain.com</a><br>Website: <span class="placeholder">[INSERT YOUR WEBSITE URL]</span></div>
+          <p class="small">This page is a general website privacy notice, not legal advice. Review it against your actual website features, business location, audience, and applicable privacy laws before publishing.</p>
+        </section>
+      </article>
+    </div>
+
+    <div data-lang="id">
+      <div class="notice"><strong>Sebelum dipublikasikan:</strong> Ganti URL website dan email kontak yang disorot pada file ini. Versi ini mengasumsikan website berupa situs informasi/portofolio statis dan tidak menjalankan akun pengguna, checkout, formulir kontak, advertising pixel, atau alat analitik secara langsung. Perbarui kebijakan apabila Anda menambahkan fitur tersebut.</div>
+      <article class="content">
+        <nav class="contents" aria-label="Daftar isi">
+          <strong>Daftar isi</strong>
+          <ol>
+            <li><a href="#id-about">Tentang kami</a></li><li><a href="#id-collect">Informasi yang diproses</a></li>
+            <li><a href="#id-use">Penggunaan informasi</a></li><li><a href="#id-hosting">Hosting website</a></li>
+            <li><a href="#id-cookies">Cookie dan analitik</a></li><li><a href="#id-third">Tautan pihak ketiga</a></li>
+            <li><a href="#id-retain">Penyimpanan dan keamanan</a></li><li><a href="#id-rights">Pilihan dan hak privasi</a></li>
+            <li><a href="#id-children">Privasi anak</a></li><li><a href="#id-changes">Perubahan kebijakan</a></li><li><a href="#id-contact">Kontak</a></li>
+          </ol>
+        </nav>
+
+        <section id="id-about"><h2>1. Tentang kami</h2>
+          <p>Website ini dioperasikan dengan nama <strong>AuTuMN STUDIO</strong> (“kami”). Untuk keperluan kebijakan ini, alamat website adalah <span class="placeholder">[MASUKKAN URL WEBSITE]</span>.</p>
+          <p>Kebijakan ini berlaku untuk informasi yang diproses melalui website ini. Kebijakan ini tidak mengatur website, marketplace, atau layanan yang dioperasikan oleh organisasi lain.</p>
+        </section>
+        <section id="id-collect"><h2>2. Informasi yang kami proses</h2>
+          <p>Kami tidak bermaksud mengumpulkan informasi pribadi secara langsung melalui website statis ini. Namun, informasi dapat diproses dalam situasi berikut:</p>
+          <ul>
+            <li><strong>Informasi yang Anda kirimkan:</strong> Jika Anda mengirim email, kami dapat menerima alamat email, nama (jika dicantumkan), pesan, lampiran, dan informasi lain yang Anda pilih untuk sertakan.</li>
+            <li><strong>Informasi teknis dasar:</strong> Penyedia hosting dapat memproses data teknis seperti alamat IP, informasi browser atau perangkat, waktu permintaan, dan halaman yang diminta untuk menjalankan serta melindungi infrastrukturnya.</li>
+            <li><strong>Layanan pihak ketiga:</strong> Ketika Anda membuka tautan eksternal, layanan tersebut dapat mengumpulkan informasi sesuai kebijakan privasi dan pengaturannya sendiri.</li>
+          </ul>
+          <p>Mohon jangan mengirimkan informasi pribadi yang sensitif kecuali benar-benar diperlukan untuk pertanyaan Anda.</p>
+        </section>
+        <section id="id-use"><h2>3. Bagaimana informasi digunakan</h2>
+          <p>Informasi yang Anda kirimkan secara sukarela dapat digunakan untuk menjawab pertanyaan, memberikan dukungan pelanggan, membahas produk atau layanan, dan menyimpan catatan bisnis yang relevan. Informasi teknis yang diproses penyedia hosting dapat digunakan untuk menampilkan website, pemecahan masalah, pencegahan penyalahgunaan, dan keamanan.</p>
+          <p>Kami tidak menjual informasi pribadi yang dikumpulkan langsung dari Anda melalui website ini. Template ini tidak menjalankan iklan bertarget atau profiling perilaku.</p>
+        </section>
+        <section id="id-hosting"><h2>4. Hosting website dan GitHub Pages</h2>
+          <p>Website ini dapat di-host menggunakan <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>, layanan yang disediakan oleh GitHub. GitHub menyatakan bahwa ketika situs GitHub Pages dikunjungi, alamat IP pengunjung dicatat dan disimpan untuk tujuan keamanan. Pemrosesan tersebut dilakukan oleh GitHub sebagai penyedia hosting dan tunduk pada <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Pernyataan Privasi GitHub</a>.</p>
+          <p>Untuk pertanyaan mengenai data yang diproses GitHub dalam kapasitasnya sebagai penyedia GitHub Pages, silakan baca kebijakan GitHub dan hubungi GitHub melalui kanal resminya.</p>
+        </section>
+        <section id="id-cookies"><h2>5. Cookie dan analitik</h2>
+          <p>Template kebijakan ini tidak menambahkan alat analitik, advertising pixel, atau cookie non-esensial ke website Anda. GitHub atau layanan pihak ketiga dapat menggunakan teknologi yang diperlukan untuk menyediakan atau mengamankan layanan mereka sendiri.</p>
+          <p>Jika nanti Anda memasang Google Analytics, Meta Pixel, media tertanam, alat persetujuan cookie, atau teknologi pelacakan lain, perbarui bagian ini dengan menyebutkan penyedia, menjelaskan informasi yang dikumpulkan dan tujuannya, serta menyediakan kontrol persetujuan atau pilihan keluar yang diwajibkan oleh hukum yang berlaku.</p>
+        </section>
+        <section id="id-third"><h2>6. Tautan dan marketplace pihak ketiga</h2>
+          <p>Website ini dapat memuat tautan ke platform eksternal, termasuk marketplace seperti Etsy, media sosial, atau halaman produk lainnya. Ketika Anda meninggalkan website kami, ketentuan, kebijakan privasi, cookie, dan praktik data milik pihak ketiga tersebut yang berlaku. Kami tidak mengendalikan layanan atau praktik privasi mereka.</p>
+          <p>Baca kebijakan privasi pihak ketiga terkait sebelum mengirimkan informasi, membuat akun, atau melakukan pembelian di platform lain.</p>
+        </section>
+        <section id="id-retain"><h2>7. Penyimpanan dan keamanan data</h2>
+          <p>Kami menyimpan pesan dan informasi terkait hanya selama diperlukan secara wajar untuk menjawab Anda, mengelola hubungan bisnis, memenuhi kewajiban hukum, atau menyelesaikan sengketa. Jangka waktu penyimpanan dapat berbeda bergantung pada jenis informasi dan alasan informasi tersebut diberikan.</p>
+          <p>Kami menerapkan langkah-langkah yang wajar untuk melindungi informasi yang berada dalam kendali kami. Tidak ada metode transmisi atau penyimpanan elektronik yang sepenuhnya aman, sehingga kami tidak dapat menjamin keamanan secara mutlak. Penyedia hosting dan platform pihak ketiga bertanggung jawab atas keamanan sistem yang mereka operasikan.</p>
+        </section>
+        <section id="id-rights"><h2>8. Pilihan dan hak privasi Anda</h2>
+          <p>Bergantung pada lokasi Anda dan hukum yang berlaku, Anda mungkin memiliki hak untuk meminta akses, koreksi, penghapusan, atau salinan informasi pribadi tentang Anda, atau mengajukan keberatan maupun pembatasan terhadap pemrosesan tertentu. Anda juga dapat menarik persetujuan apabila pemrosesan didasarkan pada persetujuan.</p>
+          <p>Untuk mengajukan permintaan privasi, hubungi kami melalui informasi kontak di bawah. Kami mungkin perlu memverifikasi identitas Anda dan akan menanggapi sesuai hukum yang berlaku. Hak-hak ini dapat tunduk pada pengecualian dan batasan hukum.</p>
+        </section>
+        <section id="id-children"><h2>9. Privasi anak</h2>
+          <p>Website ini tidak dirancang untuk mengumpulkan informasi pribadi dari anak-anak. Jika Anda meyakini bahwa seorang anak telah memberikan informasi pribadi kepada kami, silakan hubungi kami agar kami dapat meninjau permintaan tersebut dan mengambil langkah yang sesuai.</p>
+        </section>
+        <section id="id-changes"><h2>10. Perubahan kebijakan ini</h2>
+          <p>Kami dapat memperbarui kebijakan ini apabila website, layanan, atau ketentuan hukum berubah. Tanggal “Pembaruan terakhir” di bagian atas halaman menunjukkan kapan versi terbaru diterbitkan. Dengan tetap menggunakan website setelah pembaruan, Anda dianggap telah memiliki kesempatan untuk membaca kebijakan yang telah direvisi.</p>
+        </section>
+        <section id="id-contact"><h2>11. Hubungi kami</h2>
+          <p>Untuk pertanyaan atau permintaan terkait Kebijakan Privasi ini, hubungi:</p>
+          <div class="contact-card"><strong>AuTuMN STUDIO</strong><br>Email: <a href="mailto:privacy@yourdomain.com">privacy@yourdomain.com</a><br>Website: <span class="placeholder">[MASUKKAN URL WEBSITE]</span></div>
+          <p class="small">Halaman ini merupakan pemberitahuan privasi website secara umum, bukan nasihat hukum. Tinjau dan sesuaikan dengan fitur website yang benar-benar digunakan, lokasi usaha, target pengunjung, serta peraturan privasi yang berlaku sebelum dipublikasikan.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    <span>© <span id="year">2026</span> AuTuMN STUDIO. All rights reserved.</span>
+    <span aria-hidden="true"> · </span>
+    <a href="./">Home</a>
+    <a href="./privacy-policy.html" aria-current="page">Privacy Policy</a>
+  </footer>
+
+  <script>
+    (() => {
+      const buttons = document.querySelectorAll('[data-switch]');
+      const panels = document.querySelectorAll('[data-lang]');
+      function setLanguage(language) {
+        panels.forEach(panel => panel.classList.toggle('active', panel.dataset.lang === language));
+        buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.switch === language)));
+        document.documentElement.lang = language;
+        document.title = language === 'id' ? 'Kebijakan Privasi | AuTuMN STUDIO' : 'Privacy Policy | AuTuMN STUDIO';
+      }
+      buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.switch)));
+      document.getElementById('year').textContent = new Date().getFullYear();
+      setLanguage('en');
+    })();
+  </script>
+</body>
+</html>
